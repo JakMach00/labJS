@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab7JS</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>lab7JS weather</h1>
+    <form>
+        <label for="cityInput">City:</label>
+        <input type="text" id="cityInput" placeholder="Chicago">
+        <select id="cityList">
+        </select>
+
+        <input type="button" id="getWeatherBtn" value="Add">
+        <input type="button" id="deleteWeatherBtn" value="Delete">
+    </form>
+
+
+    <div id="data" style="display: flex; justify-content: center; text-align: center; flex-wrap: wrap;">
+        
+    </div>
+
+    <canvas id="weatherChart" width="640"></canvas>
+    <script src="./script.js"></script>
+</body>
+
+</html>

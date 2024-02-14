@@ -1,0 +1,54 @@
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.soundButton {
+    background-color: #222;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    margin: 5px auto;
+    margin-left: 5vh;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.soundButton:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+    background-color: #01830c;
+}
+
+#playAll {
+    background-color: #5c0e6b;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    margin-top: 50px;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-left: 5vh;
+}
+
+.recordButton {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    margin: 0px auto;
+    margin-left: 5vh;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.recordButton:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
+    background-color: #720101;
+}

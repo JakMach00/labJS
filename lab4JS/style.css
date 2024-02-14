@@ -1,0 +1,90 @@
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.addNoteBtn {
+    background-color: #007acc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.delNoteBtn {
+    background-color: #381883;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.delNoteBtn:hover {
+    background-color: #f00;
+    transition: 0.5s;
+}
+
+#addNoteBtn {
+    background-color: #1a0fbd;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+#addNoteBtn:hover {
+    background-color: #308fd8;
+    transition: 0.5s;
+}
+
+.note {
+    background-color: #444;
+    border: 1px solid #666;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.note .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.note .content {
+    font-size: 14px;
+}
+
+.note .date {
+    font-size: 12px;
+    color: #aaa;
+}
+
+.note.pinned {
+    border: 2px solid #ffcc00;
+}
